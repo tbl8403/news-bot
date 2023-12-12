@@ -7,10 +7,10 @@ import requests
 bot = commands.Bot(command_prefix='!')
 
 # Token bot Discord
-TOKEN = 'MTE4Mzc3MDQxNTE3MzIxNDI0OQ.GbF5ZO.LtR0BBnN9XE11dWuPTVV9GZbAkAct3d9N1NOEc'
+TOKEN = 'YOUR_TOKEN'
 
 # Kênh Discord để gửi tin tức
-NEWS_CHANNEL_ID = 1184021970317234226  # Thay ID bằng ID của kênh Discord bạn muốn sử dụng
+NEWS_CHANNEL_ID = 123456789  # Thay ID bằng ID của kênh Discord bạn muốn sử dụng
 
 # Từ khoá để tìm kiếm tin tức trên Naver
 SEARCH_KEYWORDS = ['TEMPEST', 'TXT', 'KARD', 'ONEUS', 'AB6IX', 'DKZ', 'TOMORROW X TOGETHER']  # Thay đổi theo nhu cầu của bạn
